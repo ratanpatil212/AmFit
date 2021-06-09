@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665704728872",
+    "project_id": "amfit-a4622",
+    "storage_bucket": "amfit-a4622.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665704728872:android:9878635fd1ce445385681d",
+        "android_client_info": {
+          "package_name": "com.example.amfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665704728872-9nf8q0vrn0gs67q23iiboacjqn7ca4iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWfr35lKp1ee8lxxSjG1w8ndc53Pg5GKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665704728872-9nf8q0vrn0gs67q23iiboacjqn7ca4iq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
