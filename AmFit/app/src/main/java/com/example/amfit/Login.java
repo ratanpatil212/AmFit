@@ -22,11 +22,12 @@ public class Login extends AppCompatActivity {
         button = (Button) findViewById(R.id.signupltr);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {{openResigterPage();
+            public void onClick(View v) {{
+                openingPage();
             }
         }
 
-            private void openResigterPage() {
+            private void openingPage() {
                 Intent i = new  Intent(Login.this,MainActivity.class);
                 startActivity(i);
             }
