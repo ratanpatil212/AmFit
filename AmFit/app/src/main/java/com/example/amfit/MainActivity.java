@@ -11,7 +11,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
+//import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     Button mRegisterbutton;
     TextView mLogin;
     FirebaseAuth fAuth;
-    ProgressBar progressbar;
+//    ProgressBar progressbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         mRegisterbutton = findViewById(R.id.signup);
 
         fAuth = FirebaseAuth.getInstance();
-        progressbar = findViewById(R.id.progressBar);
+//        progressbar = findViewById(R.id.progressBar);
 
         if(fAuth.getCurrentUser() != null){
             startActivity(new Intent(getApplicationContext(),Login.class));
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 if(password.length()<6){
                     mPassword.setError("Password should be more than 6 letters");
                 }
-                progressbar.setVisibility(View.VISIBLE);
+//                progressbar.setVisibility(View.VISIBLE);
 
                 //register the user in Firebase
                 fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
