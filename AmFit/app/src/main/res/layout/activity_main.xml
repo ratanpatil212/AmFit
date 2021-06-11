@@ -111,7 +111,7 @@
         app:layout_constraintVertical_bias="0.215" />
 
     <Button
-        android:id="@+id/Loginrtl"
+        android:id="@+id/Logintoapp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#c6d8f1"

@@ -3,5 +3,6 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aldrich</item>
         <item>@font/audiowide</item>
+        <item>@font/delius_unicase</item>
     </array>
 </resources>

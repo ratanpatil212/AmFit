@@ -1,5 +1,6 @@
 package com.example.amfit;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -8,9 +9,18 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class Login extends AppCompatActivity {
-    Button button;
+    Button gotosignup,login;
+    EditText email,password;
+    FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +29,11 @@ public class Login extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_login);
-        button = (Button) findViewById(R.id.signupltr);
-        button.setOnClickListener(new View.OnClickListener() {
+
+        firebaseAuth = FirebaseAuth.getInstance();
+
+        gotosignup = (Button) findViewById(R.id.signupltr);
+        gotosignup.setOnClickListener(new View.OnClickListener() { // new user signup button takes you to the register page
             @Override
             public void onClick(View v) {{
                 openingPage();
@@ -32,5 +45,49 @@ public class Login extends AppCompatActivity {
                 startActivity(i);
             }
             });
+        email = findViewById(R.id.Email);
+        password = findViewById(R.id.Password);
+        login = findViewById(R.id.Logintoapp);
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //extract and validate
+
+                if(email.getText().toString().isEmpty()){
+                    email.setError("Email is missing");
+                    return;
+                }
+                if (password.getText().toString().isEmpty()){
+                    password.setError("Password cannot be empty");
+                }
+                //when these two if's are completed the data is validated
+                //login
+                firebaseAuth.signInWithEmailAndPassword(email.getText().toString().trim(),password.getText().toString().trim()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                    @Override
+                    public void onSuccess(AuthResult authResult) {
+                        //login is successful
+                        startActivity(new Intent(getApplicationContext(),contents.class));
+                        finish();
+
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(Login.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+            }
+        });
+
+    }
+
+    @Override
+    protected void onStart() {  // if user is already regisered/logged in then the app will not show the login or register page it will take to main app
+        super.onStart();
+        if (FirebaseAuth.getInstance().getCurrentUser()!=null){
+            startActivity(new Intent(getApplicationContext(),contents.class));
+        }
     }
 }
