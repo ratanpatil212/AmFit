@@ -45,6 +45,7 @@
         android:id="@+id/Email"
         android:layout_width="250dp"
         android:layout_height="50dp"
+        android:drawableStart="@drawable/email"
         android:layout_marginStart="10dp"
         android:layout_marginTop="112dp"
         android:ems="10"
@@ -60,8 +61,10 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
+        android:drawableStart="@drawable/pass"
         android:ems="10"
-        android:hint="Password"
+
+        android:hint="@string/password"
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/Logintoapp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,10 +76,11 @@
     <Button
         android:id="@+id/Logintoapp"
         android:layout_width="150dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginBottom="204dp"
         android:backgroundTint="#c6d8f1"
-        android:text="Login"
+        android:text="@string/login"
+        android:background="@drawable/rounded_corners"
         android:textColor="#695ca9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,16 +92,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="Forgot Password"
+        android:text="@string/forgot_password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Logintoapp" />
 
     <Button
         android:id="@+id/signupltr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New User? Sign Up"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/new_user_sign_up"
+        android:background="@drawable/rounded_corners"
         android:backgroundTint="#c6d8f1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -105,14 +110,4 @@
         android:textColor="#695ca9"
         app:layout_constraintTop_toBottomOf="@+id/fgpass" />
 
-    <Button
-        android:id="@+id/buttonloginphone"
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:text="Login with Phone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.843" />
 </androidx.constraintlayout.widget.ConstraintLayout>

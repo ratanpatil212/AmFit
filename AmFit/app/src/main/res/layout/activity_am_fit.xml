@@ -9,13 +9,15 @@
 
     <Button
         android:id="@+id/get"
-        android:layout_width="167dp"
-        android:layout_height="70dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="56dp"
+        android:layout_width="245dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="184dp"
+        android:background="@drawable/rounded_corners"
         android:backgroundTint="#c6d8f1"
-        android:text="Get Started"
+        android:text="@string/get_started"
         android:textColor="#695ca9"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
