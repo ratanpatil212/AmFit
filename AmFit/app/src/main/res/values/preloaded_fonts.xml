@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
         <item>@font/aldrich</item>
         <item>@font/audiowide</item>
         <item>@font/delius_unicase</item>
+        <item>@font/galindo</item>
+        <item>@font/sigmar_one</item>
     </array>
 </resources>

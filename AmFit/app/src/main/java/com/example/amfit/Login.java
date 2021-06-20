@@ -17,6 +17,8 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.Objects;
+
 public class Login extends AppCompatActivity {
     Button gotosignup,login;
     EditText email,password;
@@ -27,7 +29,7 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
+//        Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_login);
 
         firebaseAuth = FirebaseAuth.getInstance();
@@ -66,16 +68,15 @@ public class Login extends AppCompatActivity {
                 firebaseAuth.signInWithEmailAndPassword(email.getText().toString().trim(),password.getText().toString().trim()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                     @Override
                     public void onSuccess(AuthResult authResult) {
+                        if( Objects.requireNonNull(firebaseAuth.getCurrentUser()).isEmailVerified()){ // this code lands user on content only if user is verified
+                                startActivity(new Intent(getApplicationContext(),contents.class));
+                                finish();
+                            }
+                        else {
+                            Toast.makeText(Login.this, "Please verify email", Toast.LENGTH_SHORT).show();
+                        }
+                        }
                         //login is successful
-                        startActivity(new Intent(getApplicationContext(),contents.class));
-                        finish();
-
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(Login.this, e.getMessage(), Toast.LENGTH_SHORT).show();
-                    }
                 });
 
             }

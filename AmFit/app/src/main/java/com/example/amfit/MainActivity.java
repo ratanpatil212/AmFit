@@ -4,7 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.nfc.Tag;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -16,33 +18,32 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 
 public class MainActivity extends AppCompatActivity {
     Button msignUp,gotologin;
     EditText mFullname,mEmail,mPassword,mPhone;
-    TextView mLogin,verifyMsg;
     FirebaseAuth fAuth,auth;
+    private static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
 
         msignUp = findViewById(R.id.signup);
-        msignUp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),Login.class));
-                finish();
-            }
-        });
+//        msignUp.setOnClickListener(v -> {
+//            startActivity(new Intent(getApplicationContext(),Login.class));
+//            finish();
+//        });
 
 
 //        verifyEmailbtn = findViewById(R.id.signup);
@@ -55,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         gotologin = findViewById(R.id.Logintoapp);
 
         fAuth = FirebaseAuth.getInstance();
-
+//        FirebaseUser user = auth.getCurrentUser();
         gotologin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,13 +92,20 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isSuccessful()){
-                                Toast.makeText(MainActivity.this, "Hurray!You are registered.Check your email for verification of your account", Toast.LENGTH_LONG).show();
-                                startActivity(new Intent(getApplicationContext(),contents.class));
-                                finish();
-                            }
-                            else {
-                                Toast.makeText(MainActivity.this, "Error! "+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                fAuth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if(task.isSuccessful()){
+                                            Toast.makeText(MainActivity.this, "Hurray!You are registered.Check your email for verification of your account", Toast.LENGTH_LONG).show();
+                                            Intent i = new Intent(MainActivity.this, Login.class);
+                                            startActivity(i);
+                                        }
+                                        else {
+                                            Toast.makeText(MainActivity.this, "Error! "+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                        }
 
+                                    }
+                                });
                             }
                         }
                     }).addOnFailureListener(new OnFailureListener() {
