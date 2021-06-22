@@ -16,7 +16,7 @@ public class Shoulder_taps extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent categoryIntent = new Intent(Shoulder_taps.this,MainActivity.class);
+        Intent categoryIntent = new Intent(Shoulder_taps.this,Specials.class);
         startActivity(categoryIntent);
         finish();
 

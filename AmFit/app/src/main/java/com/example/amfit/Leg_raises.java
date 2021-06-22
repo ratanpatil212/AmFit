@@ -16,7 +16,7 @@ public class Leg_raises extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent categoryIntent = new Intent(Leg_raises.this,MainActivity.class);
+        Intent categoryIntent = new Intent(Leg_raises.this,Specials.class);
         startActivity(categoryIntent);
         finish();
 

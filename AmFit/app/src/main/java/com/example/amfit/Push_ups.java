@@ -16,7 +16,7 @@ public class Push_ups extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent categoryIntent = new Intent(Push_ups.this,MainActivity.class);
+        Intent categoryIntent = new Intent(Push_ups.this,Specials.class);
         startActivity(categoryIntent);
         finish();
 

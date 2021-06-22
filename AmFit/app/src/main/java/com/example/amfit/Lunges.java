@@ -16,7 +16,7 @@ public class Lunges extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent categoryIntent = new Intent(Lunges.this,MainActivity.class);
+        Intent categoryIntent = new Intent(Lunges.this,Specials.class);
         startActivity(categoryIntent);
         finish();
 

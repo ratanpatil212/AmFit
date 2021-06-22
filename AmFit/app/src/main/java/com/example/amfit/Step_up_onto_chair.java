@@ -16,7 +16,7 @@ public class Step_up_onto_chair extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent categoryIntent = new Intent(Step_up_onto_chair.this,MainActivity.class);
+        Intent categoryIntent = new Intent(Step_up_onto_chair.this,Specials.class);
         startActivity(categoryIntent);
         finish();
 

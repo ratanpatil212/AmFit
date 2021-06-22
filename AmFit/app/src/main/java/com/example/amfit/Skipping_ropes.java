@@ -16,7 +16,7 @@ public class Skipping_ropes extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent categoryIntent = new Intent(Skipping_ropes.this,MainActivity.class);
+        Intent categoryIntent = new Intent(Skipping_ropes.this,Specials.class);
         startActivity(categoryIntent);
         finish();
 

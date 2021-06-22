@@ -19,7 +19,7 @@ public class Jumping_jacks extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent categoryIntent = new Intent(Jumping_jacks.this,MainActivity.class);
+        Intent categoryIntent = new Intent(Jumping_jacks.this,Specials.class);
         startActivity(categoryIntent);
         finish();
 

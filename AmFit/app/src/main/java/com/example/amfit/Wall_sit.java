@@ -16,7 +16,7 @@ public class Wall_sit extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent categoryIntent = new Intent(Wall_sit.this,MainActivity.class);
+        Intent categoryIntent = new Intent(Wall_sit.this,Specials.class);
         startActivity(categoryIntent);
         finish();
 

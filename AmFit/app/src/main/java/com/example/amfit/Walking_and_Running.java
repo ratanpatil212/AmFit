@@ -16,7 +16,7 @@ public class Walking_and_Running extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent categoryIntent = new Intent(Walking_and_Running.this,MainActivity.class);
+        Intent categoryIntent = new Intent(Walking_and_Running.this,Specials.class);
         startActivity(categoryIntent);
         finish();
 
