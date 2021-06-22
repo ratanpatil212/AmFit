@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AmFit">
-        <activity android:name=".phonelogin"></activity>
+        <activity android:name=".Specials"></activity>
+        <activity android:name=".phonelogin" />
         <activity android:name=".contents" />
         <activity android:name=".AmFit">
             <intent-filter>
@@ -25,7 +26,6 @@
             android:name=".Login"
             android:label="@string/title_activity_login" />
         <activity android:name=".MainActivity" />
-
 
         <meta-data
             android:name="preloaded_fonts"
