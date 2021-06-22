@@ -12,7 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AmFit">
-        <activity android:name=".phonelogin"></activity>
+        <activity android:name=".llegumes"></activity>
+        <activity android:name=".lnuts" />
+        <activity android:name=".lfruits" />
+        <activity android:name=".lvegetables" />
+        <activity android:name=".dloose_weight" />
+        <activity android:name=".Diet" />
+        <activity android:name=".phonelogin" />
         <activity android:name=".contents" />
         <activity android:name=".AmFit">
             <intent-filter>
@@ -25,7 +31,6 @@
             android:name=".Login"
             android:label="@string/title_activity_login" />
         <activity android:name=".MainActivity" />
-
 
         <meta-data
             android:name="preloaded_fonts"
