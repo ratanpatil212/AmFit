@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="410dp"
+            android:layout_height="85dp"
+            android:alpha="1"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="STRESS and ANXIETY"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="EXERCISE"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="REDUCE CAFEINNE INTAKE"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="WRITING DOWN"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="CHEWING GUM"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="SPENDING TIME WITH FRIENDS and FAMILY"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b11"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="LAUGH"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="SAY NO"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b13"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="AVOID PROCASTINATION"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b14"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="DO YOGA"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b15"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="PRACTICE MINDFULNESS"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>
