@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="410dp"
+            android:layout_height="98dp"
+            android:alpha="1"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="GENERAL MENTAL HEALTH"
+            android:textColor="@color/black"
+            android:textSize="34dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="410dp"
+            android:layout_height="338dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="      Your mental health and wellbeing are just as important as your physical health.
+Positive mental health and wellbeing enables you to function well, have meaningful social connections, positive self-esteem and be better able to cope with life's ups and downs.
+"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="410dp"
+            android:layout_height="143dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="Keeping our mind healthy is an important part of our overall health and wellbeing."
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="Click Here for the tips to maintain Mental Health and Wellbeing"
+            android:textColor="@color/black"
+            android:textSize="27dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+
+    </LinearLayout>
+
+</ScrollView>
