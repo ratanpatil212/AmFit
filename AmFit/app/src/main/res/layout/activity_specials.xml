@@ -7,7 +7,7 @@
     android:layout_height="729dp"
     tools:layout_editor_absoluteX="1dp"
     tools:layout_editor_absoluteY="1dp"
-    android:background="@drawable/image"
+    android:background="@drawable/gradient_background"
     android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -36,12 +36,12 @@
             android:id="@+id/textView"
             android:layout_width="409dp"
             android:layout_height="94dp"
-            android:background="@drawable/image"
+            android:background="@drawable/dash"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center"
             android:includeFontPadding="false"
             android:text="Exercises"
-            android:textColor="@color/purple_500"
+            android:textColor="@color/white"
             android:textColorHighlight="@color/purple_200"
             android:textColorLink="@color/purple_200"
             android:textSize="48sp"
