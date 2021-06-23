@@ -22,6 +22,7 @@
         <activity android:name=".workoutact3" />
         <activity android:name=".workoutmain2" />
         <activity android:name=".workoutmain" />
+        <activity android:name=".Specials"></activity>
         <activity android:name=".covid"></activity>
         <activity android:name=".yoga" />
         <activity android:name=".copingskills" />
