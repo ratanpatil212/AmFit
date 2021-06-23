@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="410dp"
+            android:layout_height="85dp"
+            android:alpha="1"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="YOGA"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Yoga for High Blood Pressure, Hypertension"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="410dp"
+            android:layout_height="74dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="Yoga for Diabetes"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="Yoga For Focus and Awareness"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="Which yoga is best for you ?"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="Yoga in 15 minutes"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b11"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="Yoga in 30 minutes"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="Yoga in 60 minutes"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</ScrollView>

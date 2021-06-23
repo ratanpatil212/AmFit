@@ -13,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AmFit">
         <activity android:name=".Specials"></activity>
+        <activity android:name=".covid"></activity>
+        <activity android:name=".yoga" />
+        <activity android:name=".copingskills" />
+        <activity android:name=".medit" />
+        <activity android:name=".depress" />
+        <activity android:name=".stressanx" />
+        <activity android:name=".gmhtips" />
+        <activity android:name=".gmh" />
+        <activity android:name=".MainActivity2" />
         <activity android:name=".phonelogin" />
         <activity android:name=".contents" />
         <activity android:name=".AmFit">
