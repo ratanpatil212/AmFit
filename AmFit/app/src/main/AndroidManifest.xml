@@ -12,6 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AmFit">
+        <activity android:name=".wwa"></activity>
+        <activity android:name=".wwi" />
+        <activity android:name=".wwb" />
+        <activity android:name=".wma" />
+        <activity android:name=".wmi" />
+        <activity android:name=".wmb" />
+        <activity android:name=".workoutact4" />
+        <activity android:name=".workoutact3" />
+        <activity android:name=".workoutmain2" />
+        <activity android:name=".workoutmain" />
         <activity android:name=".Specials"></activity>
         <activity android:name=".covid"></activity>
         <activity android:name=".yoga" />
