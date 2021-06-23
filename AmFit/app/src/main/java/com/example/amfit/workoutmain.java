@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class workoutmain extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void  openMainActivity2(){
-        Intent i= new Intent(this, MainActivity2.class);
+        Intent i= new Intent(this, workoutmain2.class);
         startActivity(i);
     }
 }
