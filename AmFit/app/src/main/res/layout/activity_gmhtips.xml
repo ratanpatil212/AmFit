@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="410dp"
+            android:layout_height="63dp"
+            android:alpha="1"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="TIPS"
+            android:textColor="@color/black"
+            android:textSize="34dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="410dp"
+            android:layout_height="91dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="1. Spend time with friends, loved ones and people you trust"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="410dp"
+            android:layout_height="91dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="2. Talk about or express your feelings regularly"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="410dp"
+            android:layout_height="91dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="3. Don’t fall for alcohol consumption"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="410dp"
+            android:layout_height="81dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="4. Avoid illicit drug use"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="410dp"
+            android:layout_height="91dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="5. Keep yourself active and eat well"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="410dp"
+            android:layout_height="91dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="6. Develop new skills and challenge your capabilities"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="410dp"
+            android:layout_height="91dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="7. Relax and enjoy your hobbies"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="410dp"
+            android:layout_height="91dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="8. Set realistic goals"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="410dp"
+            android:layout_height="91dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="9. Take time out for yourself and family"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="410dp"
+            android:layout_height="91dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="10. Get enough sleep"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="410dp"
+            android:layout_height="91dp"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="11. Take healthy diet"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
