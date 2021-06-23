@@ -16,7 +16,7 @@ public class Specials extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_specials);
 
-        b1=(Button)findViewById(R.id.button);
+        b1=(Button)findViewById(R.id.amfit_specials);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,7 +26,7 @@ public class Specials extends AppCompatActivity {
             }
         });
 
-        b2=(Button)findViewById(R.id.button2);
+        b2=(Button)findViewById(R.id.muscle_buildup);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,7 +46,7 @@ public class Specials extends AppCompatActivity {
             }
         });
 
-        b3=(Button)findViewById(R.id.button3);
+        b3=(Button)findViewById(R.id.diet);
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,7 +56,7 @@ public class Specials extends AppCompatActivity {
             }
         });
 
-        b4=(Button)findViewById(R.id.button4);
+        b4=(Button)findViewById(R.id.mental_health);
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -66,7 +66,7 @@ public class Specials extends AppCompatActivity {
             }
         });
 
-        b6=(Button)findViewById(R.id.button6);
+        b6=(Button)findViewById(R.id.explore);
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

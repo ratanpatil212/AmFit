@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/amfit_specials"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginStart="40dp"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.364" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/muscle_buildup"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginEnd="56dp"
@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.364" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/diet"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginStart="36dp"
@@ -75,7 +75,7 @@
         app:layout_constraintVertical_bias="0.565" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/mental_health"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:fontFamily="@font/aclonica"
@@ -85,12 +85,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.253"
-        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/diet"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.565" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/covid"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:fontFamily="@font/aclonica"
@@ -98,14 +98,14 @@
         android:textSize="24sp"
         android:background="@drawable/rounded_corners"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/explore"
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.752" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/explore"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginEnd="56dp"

@@ -12,7 +12,7 @@ import android.widget.Button;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class contents extends AppCompatActivity {
-    Button logout;
+    Button logout,b1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,14 @@ public class contents extends AppCompatActivity {
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(getApplicationContext(),Login.class));
                 finish();
+            }
+        });
+        b1 = findViewById(R.id.amfit_specials);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),Specials.class));
+
             }
         });
 

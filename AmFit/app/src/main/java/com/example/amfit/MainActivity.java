@@ -56,6 +56,12 @@ public class MainActivity extends AppCompatActivity {
         gotologin = findViewById(R.id.Logintoapp);
 
         fAuth = FirebaseAuth.getInstance();
+
+        if (FirebaseAuth.getInstance().getCurrentUser()!=null) {
+            startActivity(new Intent(getApplicationContext(),contents.class));
+        }
+
+
 //        FirebaseUser user = auth.getCurrentUser();
         gotologin.setOnClickListener(new View.OnClickListener() {
             @Override

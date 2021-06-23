@@ -30,7 +30,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button4" />
+            app:layout_constraintTop_toBottomOf="@+id/mental_health" />
 
         <TextView
             android:id="@+id/textView"
@@ -54,7 +54,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/amfit_specials"
             android:layout_width="160dp"
             android:layout_height="110dp"
             android:layout_marginTop="116dp"
@@ -71,7 +71,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/muscle_buildup"
             android:layout_width="160dp"
             android:layout_height="110dp"
             android:layout_marginTop="116dp"
@@ -88,7 +88,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/diet"
             android:layout_width="160dp"
             android:layout_height="110dp"
             android:layout_marginTop="16dp"
@@ -102,10 +102,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toBottomOf="@+id/amfit_specials" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/mental_health"
             android:layout_width="160dp"
             android:layout_height="110dp"
             android:layout_marginTop="16dp"
@@ -119,10 +119,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button2" />
+            app:layout_constraintTop_toBottomOf="@+id/muscle_buildup" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/explore"
             android:layout_width="160dp"
             android:layout_height="110dp"
             android:layout_marginTop="16dp"
@@ -136,7 +136,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button3" />
+            app:layout_constraintTop_toBottomOf="@+id/diet" />
 
         <Button
             android:id="@+id/button8"
@@ -153,7 +153,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button6" />
+            app:layout_constraintTop_toBottomOf="@+id/explore" />
 
         <Button
             android:id="@+id/button9"
