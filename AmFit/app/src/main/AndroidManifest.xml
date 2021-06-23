@@ -23,6 +23,12 @@
         <activity android:name=".workoutmain2" />
         <activity android:name=".workoutmain" />
         <activity android:name=".Specials"></activity>
+        <activity android:name=".llegumes"></activity>
+        <activity android:name=".lnuts" />
+        <activity android:name=".lfruits" />
+        <activity android:name=".lvegetables" />
+        <activity android:name=".dloose_weight" />
+        <activity android:name=".Diet" />
         <activity android:name=".covid"></activity>
         <activity android:name=".yoga" />
         <activity android:name=".copingskills" />
