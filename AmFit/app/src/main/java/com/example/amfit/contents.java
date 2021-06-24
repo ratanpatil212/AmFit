@@ -52,8 +52,8 @@ public class contents extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),MainActivity2.class));
-
+Intent i=new Intent(contents.this,MainActivity22.class);
+startActivity(i);
             }
         });
         b4 = findViewById(R.id.diet);

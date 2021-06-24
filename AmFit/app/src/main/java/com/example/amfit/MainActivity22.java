@@ -3,27 +3,28 @@ package com.example.amfit;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-import com.example.amfit.R;
-
-public class MainActivity2 extends AppCompatActivity{
-    private Button b2,b1,b3,b4,b5,b6,b7;
+public class MainActivity22 extends AppCompatActivity {
+Button b1,b2,b3,b4,b5,b6,b7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main22);
+
+
+
+
+//        getSupportActionBar().hide();
 
         b2= findViewById(R.id.b2);
 
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(MainActivity2.this,stressanx.class);
+                Intent i=new Intent(MainActivity22.this,stressanx.class);
                 startActivity(i);
 
             }
@@ -31,7 +32,7 @@ public class MainActivity2 extends AppCompatActivity{
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent categoryIntent = new Intent(MainActivity2.this,stressanx.class);
+                Intent categoryIntent = new Intent(MainActivity22.this,stressanx.class);
                 startActivity(categoryIntent);
                 finish();
             }
@@ -40,7 +41,7 @@ public class MainActivity2 extends AppCompatActivity{
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent categoryIntent = new Intent(MainActivity2.this,gmh.class);
+                Intent categoryIntent = new Intent(MainActivity22.this,gmh.class);
                 startActivity(categoryIntent);
                 finish();
             }
@@ -49,7 +50,7 @@ public class MainActivity2 extends AppCompatActivity{
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent categoryIntent = new Intent(MainActivity2.this,depress.class);
+                Intent categoryIntent = new Intent(MainActivity22.this,depress.class);
                 startActivity(categoryIntent);
                 finish();
             }
@@ -58,7 +59,7 @@ public class MainActivity2 extends AppCompatActivity{
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent categoryIntent = new Intent(MainActivity2.this,medit.class);
+                Intent categoryIntent = new Intent(MainActivity22.this,medit.class);
                 startActivity(categoryIntent);
                 finish();
             }
@@ -67,7 +68,7 @@ public class MainActivity2 extends AppCompatActivity{
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent categoryIntent = new Intent(MainActivity2.this,copingskills.class);
+                Intent categoryIntent = new Intent(MainActivity22.this,copingskills.class);
                 startActivity(categoryIntent);
                 finish();
             }
@@ -76,7 +77,7 @@ public class MainActivity2 extends AppCompatActivity{
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent categoryIntent = new Intent(MainActivity2.this,yoga.class);
+                Intent categoryIntent = new Intent(MainActivity22.this,yoga.class);
                 startActivity(categoryIntent);
                 finish();
             }
@@ -85,11 +86,14 @@ public class MainActivity2 extends AppCompatActivity{
         b7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent categoryIntent = new Intent(MainActivity2.this,covid.class);
+                Intent categoryIntent = new Intent(MainActivity22.this,covid.class);
                 startActivity(categoryIntent);
                 finish();
             }
         });
+
+
+
 
 
     }
