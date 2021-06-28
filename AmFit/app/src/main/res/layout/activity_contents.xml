@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,10 +8,12 @@
     android:background="@drawable/gradient_background"
     tools:context=".contents">
 
+
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
-        android:layout_height="195dp"
+        android:layout_height="160dp"
         android:background="@drawable/dash"
         android:fontFamily="@font/aldrich"
         android:gravity="center"
@@ -31,13 +34,15 @@
         android:text="Logout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855" />
 
     <Button
         android:id="@+id/amfit_specials"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginStart="40dp"
         android:background="@drawable/rounded_corners"
         android:fontFamily="@font/boogaloo"
         android:text="@string/amfit_specials"
@@ -45,23 +50,23 @@
         android:textSize="35sp"
         app:backgroundTint="#4CAF50"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364" />
+        app:layout_constraintVertical_bias="0.364"
+        tools:layout_editor_absoluteX="40dp" />
 
     <Button
         android:id="@+id/muscle_buildup"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginEnd="56dp"
-        android:fontFamily="@font/boogaloo"
-        android:textColor="@color/white"
-        app:backgroundTint="#4A5ECA"
-        android:text="Muscle Buildup"
+        android:layout_marginStart="40dp"
         android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/boogaloo"
+        android:text="Muscle Buildup"
+        android:textColor="@color/white"
         android:textSize="35sp"
+        app:backgroundTint="#4A5ECA"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/amfit_specials"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.364" />
 
@@ -69,31 +74,29 @@
         android:id="@+id/diet"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginStart="36dp"
-        android:fontFamily="@font/boogaloo"
-        android:textColor="@color/white"
-        app:backgroundTint="#FF9800"
         android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/boogaloo"
         android:text="Diet"
+        android:textColor="@color/white"
         android:textSize="35sp"
+        app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
+        app:layout_constraintVertical_bias="0.565"
+        tools:layout_editor_absoluteX="36dp" />
 
     <Button
         android:id="@+id/mental_health"
         android:layout_width="150dp"
         android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/rounded_corners"
         android:fontFamily="@font/boogaloo"
         android:text="Mental Health"
         android:textColor="@color/white"
-        app:backgroundTint="#E1D149"
         android:textSize="35sp"
-        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#E1D149"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.253"
         app:layout_constraintStart_toEndOf="@+id/diet"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.565" />
@@ -102,32 +105,30 @@
         android:id="@+id/covid"
         android:layout_width="150dp"
         android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
         android:fontFamily="@font/boogaloo"
         android:text="COVID-19"
         android:textColor="@color/white"
-        app:backgroundTint="#4A5ECA"
         android:textSize="35sp"
-        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#4A5ECA"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/explore"
-        app:layout_constraintHorizontal_bias="0.571"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.752" />
+        app:layout_constraintVertical_bias="0.752"
+        tools:layout_editor_absoluteX="40dp" />
 
     <Button
         android:id="@+id/explore"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginEnd="56dp"
-        android:fontFamily="@font/boogaloo"
-        android:textColor="@color/white"
-        app:backgroundTint="#FF9800"
-        android:text="Explore"
+        android:layout_marginStart="40dp"
         android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/boogaloo"
+        android:text="Explore"
+        android:textColor="@color/white"
         android:textSize="35sp"
+        app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/covid"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.752" />
 </androidx.constraintlayout.widget.ConstraintLayout>

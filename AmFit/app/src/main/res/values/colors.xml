@@ -17,4 +17,5 @@
     <color name="red">#DA1223</color>
     <color name="colorstatepress">#EAB822</color>
     <color name="dark">#31456a</color>
+    <color name="dash_color">#4CAF50</color>
 </resources>
