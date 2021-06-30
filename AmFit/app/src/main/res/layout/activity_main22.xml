@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="413dp"
+            android:layout_height="72dp"
+            android:alpha="1"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            android:text="MENTAL HEALTH"
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="I Want help with.."
+            android:textColor="@color/purple_700"
+            android:textSize="45dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.109" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="410dp"
+            android:layout_height="115dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="General Mental Health"
+            android:textColor="@color/black"
+            android:textSize="37dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="410dp"
+            android:layout_height="115dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="STRESS AND ANXIETY"
+            android:textColor="@color/black"
+            android:textSize="37dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.446" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="410dp"
+            android:layout_height="115dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="DEPRESSION"
+            android:textColor="@color/black"
+            android:textSize="37dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.636" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="410dp"
+            android:layout_height="115dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="MEDITATION"
+            android:textColor="@color/black"
+            android:textSize="37dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.823" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="410dp"
+            android:layout_height="108dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="COPING SKILLS"
+            android:textColor="@color/black"
+            android:textSize="37dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.998" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="410dp"
+            android:layout_height="83dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="YOGA"
+            android:textColor="@color/black"
+            android:textSize="37dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.823" />
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="410dp"
+            android:layout_height="123dp"
+            android:alpha="1"
+            android:background="@color/material_on_surface_stroke"
+            android:gravity="center"
+            android:text="Mental Health during COVID-19"
+            android:textColor="@color/black"
+            android:textSize="37dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.823" />
+
+    </LinearLayout>
+
+</ScrollView>

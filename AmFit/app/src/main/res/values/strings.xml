@@ -21,4 +21,185 @@
     <string name="new_user_sign_up">New User? Sign Up</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="get_started">Get Started</string>
+    <string name="description">Like most cardio exercises, jumping jacks offer cardiovascular benefits. It balances out your heart rate, increases blood circulation all over the body, controls and maintains blood pressure, helps in doing away with bad cholesterol levels in the body, prevents the onset of stroke or heart attacks.
+</string>
+    <string name="Benefits">Benefits - </string>
+    <string name="Steps">Steps - </string>
+    <string name="jump_steps">1)Stand upright with your legs together, arms at your sides.
+        2)Bend your knees slightly, and jump into the air.
+        3)As you jump, spread your legs to be about shoulder-width apart. Stretch your arms out and over your head.
+        4)Jump back to starting position.
+</string>
+    <string name="Recommended_repetitions">Recommended repetitions - </string>
+    <string name="jump_recomm">1)Beginner – 2 round of 30 seconds
+        2)Intermediate – 3 round of 30 seconds
+        3)Advanced – 4 round of 30 seconds
+</string>
+    <string name="high_benefits">High Knees are a cardio-intensive exercise performed at a fast pace. It engages your core, strengthens all the muscles in your legs, gets your heart rate up and improves momentum, coordination and flexibility.</string>
+    <string name="high_steps">1)Stand with your feet hip-width apart. Lift up your left knee to your chest.
+        2)Switch to lift your right knee to your chest. Continue the movement, alternating legs and moving at a sprinting or running pace.
+</string>
+    <string name="high_recomm">1)Beginner – 3 round of 30 seconds
+        2)Intermediate – 4 round of 30 seconds
+        3)Advanced – 5 round of 30 seconds
+</string>
+    <string name="lunges_ben">Lunges increase muscle mass to build up strength and tone your body, especially your core, butt, and legs. Improving your appearance is not the main benefit of shaping up your body, as you will also improve your posture and range of motion, also help in balance weight and stability of the body</string>
+    <string name="lunges_steps">1)Start by standing up tall.
+        2)Step forward with one foot until your leg reaches a 90-degree angle.
+        3)Lift your front lunging leg to return to the starting position.
+</string>
+    <string name="lunges_recomm">1)Beginner – 3 sets of 12 repetitions
+        2)Intermediate –  4 sets of 16 repetitions
+        3)Advanced – 5 sets of 20 repetitions
+</string>
+    <string name="plank_ben">Improves body balance and posture. Strengthens your core (i.e. spine, shoulder bones, pelvic and joints). Improves body flexibility. Reduces belly fat and makes tummy tight. Reduces backache. Improves metabolism.</string>
+    <string name="plank_steps">1)Begin in the plank position, face down with your forearms and toes on the floor. Your elbows are directly under your shoulders and your forearms are facing forward. Your head is relaxed and you should be looking at the floor.
+        2)Engage your abdominal muscles, drawing your navel toward your spine. Keep your torso straight and rigid and your body in a straight line from ears to toes with no sagging or bending. This is the neutral spine position. Ensure your shoulders are down, not creeping up toward your ears.
+</string>
+    <string name="plank_recomm">1)Beginner – 3 round of 30 seconds
+        2)Intermediate – 4 round of 60 seconds
+        3)Advanced – 4 round of 90 seconds
+</string>
+    <string name="skip_ben">1)Improves heart health.Skipping rope is the best cardio exercise as it increases the heart rate. 2)Increases concentration. 3)Improves coordination. 4)Increases stamina and gets rid of fatigue. 5)Increases body flexibility. 6)Boost mental health. 7)Strengthening your bones.</string>
+
+    <string name="step_skip">1)Hold both rope handles in one hand and swing the rope to develop a feel for the rhythm.
+        2)Next, without using the rope, practice jumping.
+        3)Finally, put the two together. You will probably do well to jump continuously for one minute.
+</string>
+    <string name="skip_recomm">1)Beginner – 2 round of 60 seconds
+        2)Intermediate – 2 round of 90 seconds
+        3)Advanced – 3 round of 90 seconds
+</string>
+    <string name="push_ben">Traditional push-ups are beneficial for building upper body strength. They work the triceps, pectoral muscles, and shoulders. When done with proper form, they can also strengthen the lower back and core by engaging (pulling in) the abdominal muscles. Push-ups are a fast and effective exercise for building strength.</string>
+    <string name="push_step">1)Get down on all fours, placing your hands slightly wider than your shoulders.
+        2)Straighten your arms and legs.
+        3)Lower your body until your chest nearly touches the floor.
+        4)Pause, then push yourself back up.
+</string>
+    <string name="push_recomm">1)Beginner – 3 sets of 10 push-ups
+        2)Intermediate –  4 sets of 20 push-ups
+        3)Advanced – 5 sets of 30 push-ups
+</string>
+    <string name="walk_ben">1)Helps you live longer
+        2)Boosts your Vitamin D naturally
+        3)Improves mood
+        4)Builds self-confidence
+        5)Running helps you cope with stress
+        6)Running burns calories
+        7)It keeps your eyes healthy
+        8)Good for old age
+</string>
+    <string name="wall_st_ben">Wall Sits Help You Learn Concentration And Focus, Wall Sits Are Free To Do, They Will Strengthen Your Calf Muscles, They Will Help You Balance Better, Increasing Your Stamina And Physical Performance Help You to Burn Off That Big Mac.</string>
+    <string name="wall_sit_step">1)Stand with your back flat against a wall.
+        2)Walk your feet out about 2 feet in front of you, feet spread about 6 inches apart.
+        3)Slide your back down the wall, bending your knees until they are bent at about a 90 degree angle.
+        4)Hold this seated position for 20-60 seconds, contracting your abdominal muscles. Straighten your legs and come back to a standing lean against the wall
+</string>
+    <string name="wall_sit_recomm">1)Beginner – 3 round of 30 seconds
+        2)Intermediate – 4 round of 60 seconds
+        3)Advanced – 4 round of 90 seconds
+</string>
+    <string name="crunches_ben">Abdominal crunches are designed to tone the core muscles of the body. The exercise aids in strengthening the core muscles, improving the posture, and increasing the mobility and flexibility of the muscles. When these exercises are performed, the rectus abdominus and the oblique muscles are tightened.</string>
+    <string name="crunches_step">1)Lie on your back on an exercise mat.
+        2)Bend your knees so your feet are flat on the floor.
+        3)Cross your arms in front of your chest.
+        4)Lift your shoulder blades off of the mat with a smooth, controlled motion.
+        5)Lower yourself back down with a slow, steady motion.
+</string>
+    <string name="crunches_recomm">1)Beginner – 3 sets of 10 repetitions
+        2)Intermediate –  4 sets of 15 repetitions
+        3)Advanced – 5 sets of 30 repetitions
+</string>
+    <string name="squats_ben">1)Strengthening the muscles in the legs, including the quadriceps, calves, and hamstrings.
+        2)Strengthening the knee joint.
+        3)Burning fat and promoting weight loss.
+        4)Strengthening the lower back.
+        5)Improving flexibility in the lower body.
+</string>
+    <string name="squats_step">1)Stand with feet a little wider than hip width, toes facing front.
+        2)Drive your hips back—bending at the knees and ankles and pressing your knees slightly open—as you…
+        3)Sit into a squat position while still keeping your heels and toes on the ground, chest up and shoulders back.
+        4)Strive to eventually reach parallel, meaning knees are bent to a 90-degree angle.
+        5)Press into your heels and straighten legs to return to a standing upright position.
+</string>
+    <string name="squats_recomm">1)Beginner – 3 round of 30 seconds
+        2)Intermediate – 4 round of 30 seconds
+        3)Advanced – 5 round of 30 seconds
+</string>
+    <string name="mountain_recomm">1)Beginner – 3 round of 20 seconds
+        2)Intermediate – 4 round of 40 seconds
+        3)Advanced – 5 round of 60 seconds
+
+</string>
+    <string name="mountain_step">1)Put both hands and knees on the floor.
+        2)Place your right foot near your right hand and extend your left leg behind you.
+        3)In one smooth motion, switch your legs, keeping your arms in the same position.
+        4)Switch your legs back and forth twice, such that your right leg is again close to your right hand.
+</string>
+    <string name="mountain_ben">1)THEY ARE INCREDIBLY EFFICIENT - As a compound exercise, mountain climbers work multiple muscle groups and joints at the same time.
+        2)THEY IMPROVE MOBILITY - The dynamic nature of mountain climbers makes them great mobility boosters.
+        3)THEY SUPPORT HEART HEALTH.
+        4)THEY PROMOTE FUNCTIONAL FITNESS.</string>
+    <string name="cobra_ben">1)Burns calories
+        2)Offers a full body workout
+        3)Boosts cardio fitness and burns fat
+        4)Convenient and versatile
+        5)Strengthens the arms and shoulders and Increases flexibility
+
+</string>
+    <string name="cobra_step">1)Lie on your belly.
+        2)Come onto your forearms, with your elbows directly under your shoulders and parallel to each other. Stretch your legs straight back, about hip width apart.
+        3)Spread your toes wide and press the tops of your feet into your mat. Firm your legs, and roll your inner thighs up, your outer thighs down. Press your tailbone toward your feet, lengthening your lower back.
+        4)Press down into your forearms to lift your chest up.
+</string>
+    <string name="cobra_recomm">1)Beginner – 2 round of 30 seconds
+        2)Intermediate – 3 round of 60 seconds
+        3)Advanced – 4 round of 90 seconds
+</string>
+    <string name="glute_ben">1)Glute Activation.
+        2)Bigger, Stronger Glutes.
+        3)Alleviate Knee and Lower Back Pain.
+        4)Improved Squatting and Deadlifting Performance.
+        5)Greater Overall Athletic Capacity.
+</string>
+    <string name="glute_step">1)Start by lying on the floor with your knees bent, feet flat on the ground, and arms straight at your sides with your palms facing down.
+        2)Pushing through your heels, raise your hips off the ground by squeezing your core, glutes, and hamstrings. Your upper back and shoulders should still be in contact with the ground, and your core down to your knees should form a straight line.
+        3)Pause 1–2 seconds at the top and return to the starting position.
+</string>
+    <string name="glute_recomm">1)Beginner – 3 sets of 10 repetitions
+        2)Intermediate –  4 sets of 15 repetitions
+        3)Advanced – 5 sets of 20 repetitions
+</string>
+    <string name="leg_ben">1)Helps to lose weight from the legs, and lower abdomen.
+        2)Tones, strengthens muscles in your abdomen and legs.
+        3)An effective exercise for lower abs.
+        4)Can strengthen the hamstrings, calf mucles, and glutes.
+        5)It is a great exercise that can be done even while lying down in bed.
+</string>
+    <string name="leg_step">1)Lie on your back, legs straight and together.
+        2)Keep your legs straight and lift them all the way up to the ceiling until your butt comes off the floor.
+        3)Slowly lower your legs back down till they’re just above the floor. Hold for a moment.
+        4)Raise your legs back up. Repeat
+</string>
+    <string name="leg_recomm">1)Beginner – 2 round of 20 seconds
+        2)Intermediate – 3 round of 40 seconds
+        3)Advanced – 4 round of 60 seconds
+</string>
+    <string name="step_ben">Step-up onto the chair is an exercise for balance and improving the strength of your lower body, quadriceps, glutes, and the hamstring. And which works your lot of leg muscles. Helps to lose weight and maintain health as well as balanced weight.</string>
+    <string name="step_step">1)Find a step, a bench, or a sturdy chair that when you place your foot squarely on it, your knee is at a 90-degree angle or larger.
+        2)Step up 20 times, leading with the right foot, then the left, bringing both feet completely onto the bench. To return to the starting position, lead with the right foot to step down to the floor, then the left, until ending with both feet on the ground. Switch legs, and start stepping with the left foot.
+</string>
+    <string name="step_recomm">1)Beginner – 2 sets of 20 repetitions
+        2)Intermediate –  3 sets of 30 repetitions
+        3)Advanced – 4 sets of 40 repetitions
+</string>
+    <string name="shoulder_ben">The great thing about planks with shoulder taps is all you need is your own body weight. The plank with shoulder taps helps to strengthen your core, glutes, arms, and shoulders. This exercise helps to reduce lower back pain, improves your posture, and tighten your midsection.</string>
+    <string name="shoulder_step">1)Begin in a plank position with hands direction under shoulders and feet hip-width apart. Keeping abdominals and legs tight as you slowly lower your chest toward the ground with elbows bending and pointing behind you.
+        2)Exhale as you push back up to lengthen arms into plank then lift you right hand to tap your left shoulder at the top.  Repeat with the other arm tapping.
+</string>
+    <string name="shoulder_recomm">1)Beginner – 2 round of 30 seconds
+        2)Intermediate – 3 round of 60 seconds
+        3)Advanced – 4 round of 90 seconds
+</string>
+
 </resources>
