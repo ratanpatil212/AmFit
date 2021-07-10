@@ -21,9 +21,9 @@
             android:alpha="1"
             android:background="@color/teal_700"
             android:gravity="center"
-            android:text="COPING SKILLS"
+            android:text="@string/coping_skills"
             android:textColor="@color/black"
-            android:textSize="35dp" />
+            android:textSize="35sp" />
 
         <Button
             android:id="@+id/b6"
@@ -33,9 +33,9 @@
             android:background="@color/material_on_surface_stroke"
             android:gravity="center"
             android:padding="10dp"
-            android:text="Emotion Focused Skills"
+            android:text="@string/emotion_focused_skills"
             android:textColor="@color/black"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/b7"
@@ -44,9 +44,9 @@
             android:alpha="1"
             android:background="@color/material_on_surface_stroke"
             android:gravity="center"
-            android:text="Problem Focused Skills"
+            android:text="@string/problem_focused_skills"
             android:textColor="@color/black"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/b8"
@@ -55,9 +55,9 @@
             android:alpha="1"
             android:background="@color/material_on_surface_stroke"
             android:gravity="center"
-            android:text="Some Healthy Coping Skills"
+            android:text="@string/some_healthy_coping_skills"
             android:textColor="@color/black"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/b9"
@@ -66,9 +66,9 @@
             android:alpha="1"
             android:background="@color/material_on_surface_stroke"
             android:gravity="center"
-            android:text="Just Click Here and start living life to the fullest"
+            android:text="@string/just_click_here_and_start_living_life_to_the_fullest"
             android:textColor="@color/black"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
     </LinearLayout>
 
 </ScrollView>

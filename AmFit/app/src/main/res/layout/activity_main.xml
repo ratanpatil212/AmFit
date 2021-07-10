@@ -17,13 +17,14 @@
         android:layout_marginTop="264dp"
         android:drawableStart="@drawable/name"
         android:ems="50"
-        android:hint="Name"
+        android:hint="@string/name"
         android:inputType="textPersonName"
         android:textAlignment="textStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView3"
@@ -32,9 +33,9 @@
         android:layout_marginTop="44dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:text="AmFit"
+        android:text="@string/amfit"
         android:textColor="#D1D1D6"
-        android:textSize="220px"
+        android:textSize="75sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +56,8 @@
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Email"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.04"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/Email"
@@ -65,12 +67,13 @@
         android:layout_marginTop="12dp"
         android:drawableStart="@drawable/email"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Name" />
+        app:layout_constraintTop_toBottomOf="@+id/Name"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/Phone"
@@ -80,12 +83,13 @@
         android:layout_marginTop="16dp"
         android:drawableStart="@drawable/phone"
         android:ems="10"
-        android:hint="Phone"
-        android:inputType="number"
+        android:hint="@string/phone"
+        android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Password" />
+        app:layout_constraintTop_toBottomOf="@+id/Password"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/signup"
@@ -108,7 +112,7 @@
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:gravity="center"
-        android:text="Already Registered?"
+        android:text="@string/already_registered"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -138,15 +142,15 @@
         app:layout_constraintBottom_toTopOf="@+id/Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"><![CDATA[>
-
-        ]]>
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="ExtraText">
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="160dp"
             android:layout_height="118dp"
-            app:srcCompat="@drawable/circlecropped" />
+            app:srcCompat="@drawable/circlecropped"
+            android:contentDescription="@string/todo" />
 
     </RelativeLayout>
 

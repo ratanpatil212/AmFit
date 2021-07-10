@@ -14,7 +14,6 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
         <LinearLayout
@@ -27,7 +26,8 @@
                 android:layout_width="375dp"
                 android:layout_height="180dp"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/lunges" />
+                app:srcCompat="@drawable/lunges"
+                android:contentDescription="@string/todo" />
 
 
             <TextView
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:text="LUNGES"
+                android:text="@string/lunges"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/purple_700"
                 android:textStyle="bold" />

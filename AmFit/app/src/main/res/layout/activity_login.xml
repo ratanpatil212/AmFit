@@ -14,9 +14,9 @@
         android:layout_marginTop="44dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:text="AmFit"
+        android:text="@string/amfit"
         android:textColor="#D1D1D6"
-        android:textSize="180px"
+        android:textSize="80sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,15 +29,15 @@
         app:layout_constraintBottom_toTopOf="@+id/Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"><![CDATA[>
-
-        ]]>
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="UnknownIdInLayout">
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="160dp"
             android:layout_height="118dp"
-            app:srcCompat="@drawable/circlecropped" />
+            app:srcCompat="@drawable/circlecropped"
+            android:contentDescription="@string/todo" />
 
     </RelativeLayout>
 
@@ -49,12 +49,13 @@
         android:layout_marginTop="204dp"
         android:drawableStart="@drawable/email"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/Password"
@@ -71,7 +72,8 @@
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Email"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintVertical_bias="0.437"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/Logintoapp"
@@ -93,7 +95,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:text="@string/forgot_password"
-        android:textColor="#FFFBFB"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Logintoapp" />
