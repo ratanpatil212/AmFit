@@ -201,5 +201,8 @@
         2)Intermediate – 3 round of 60 seconds
         3)Advanced – 4 round of 90 seconds
 </string>
+    <string name="password_reset">Password Reset</string>
+    <string name="email">Email</string>
+    <string name="reset">Reset</string>
 
 </resources>

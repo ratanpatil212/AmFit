@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AmFit">
-        <activity android:name=".bottomnavigation"></activity>
+        <activity android:name=".passforgot" />
+        <activity android:name=".bottomnavigation" />
         <activity android:name=".MainActivity22" />
         <activity android:name=".wwa" />
         <activity android:name=".wwi" />
@@ -29,7 +30,6 @@
         <activity android:name=".lnuts" />
         <activity android:name=".lfruits" />
         <activity android:name=".lvegetables" />
-        <activity android:name=".dloose_weight" />
         <activity android:name=".Diet" />
         <activity android:name=".covid" />
         <activity android:name=".yoga" />

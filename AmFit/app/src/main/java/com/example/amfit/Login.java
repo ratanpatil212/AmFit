@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import java.util.Objects;
 
 public class Login extends AppCompatActivity {
-    Button gotosignup,login;
+    Button gotosignup,login,forgot;
     EditText email,password;
     FirebaseAuth firebaseAuth;
 
@@ -50,6 +50,15 @@ public class Login extends AppCompatActivity {
         email = findViewById(R.id.Email);
         password = findViewById(R.id.Password);
         login = findViewById(R.id.Logintoapp);
+        forgot = findViewById(R.id.fgpass);
+
+        forgot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(Login.this,passforgot.class);
+                startActivity(i);
+            }
+        });
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
