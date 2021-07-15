@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.amfit">
+    package="com.example.amfit" >
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AmFit">
+        android:theme="@style/Theme.AmFit" >
         <activity android:name=".passforgot" />
         <activity android:name=".bottomnavigation" />
         <activity android:name=".MainActivity22" />
@@ -26,6 +26,22 @@
         <activity android:name=".workoutmain2" />
         <activity android:name=".workoutmain" />
         <activity android:name=".Specials" />
+        <activity android:name=".Jumping_jacks" />
+        <activity android:name=".Crunches" />
+        <activity android:name=".High_knees" />
+        <activity android:name=".PLANK" />
+        <activity android:name=".Skipping_ropes" />
+        <activity android:name=".Push_ups" />
+        <activity android:name=".Walking_and_Running" />
+        <activity android:name=".Lunges" />
+        <activity android:name=".Wall_sit" />
+        <activity android:name=".Squats" />
+        <activity android:name=".Step_up_onto_chair" />
+        <activity android:name=".Leg_raises" />
+        <activity android:name=".Mountain_climber" />
+        <activity android:name=".Cobra_stretch" />
+        <activity android:name=".Shoulder_taps" />
+        <activity android:name=".Glute_bridge" />
         <activity android:name=".llegumes" />
         <activity android:name=".lnuts" />
         <activity android:name=".lfruits" />
@@ -42,7 +58,7 @@
         <activity android:name=".MainActivity2" />
         <activity android:name=".phonelogin" />
         <activity android:name=".contents" />
-        <activity android:name=".AmFit">
+        <activity android:name=".AmFit" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

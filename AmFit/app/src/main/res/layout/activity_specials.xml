@@ -30,7 +30,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/mental_health" />
+            app:layout_constraintTop_toBottomOf="@+id/mental_health"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/textView"
@@ -51,7 +52,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/amfit_specials"
@@ -68,7 +70,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/muscle_buildup"
@@ -85,7 +88,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/diet"
@@ -102,7 +106,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/amfit_specials" />
+            app:layout_constraintTop_toBottomOf="@+id/amfit_specials"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/mental_health"
@@ -119,7 +124,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/muscle_buildup" />
+            app:layout_constraintTop_toBottomOf="@+id/muscle_buildup"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/explore"
@@ -136,7 +142,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/diet" />
+            app:layout_constraintTop_toBottomOf="@+id/diet"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button8"
@@ -153,7 +160,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/explore" />
+            app:layout_constraintTop_toBottomOf="@+id/explore"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button9"
@@ -170,7 +178,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button7" />
+            app:layout_constraintTop_toBottomOf="@+id/button7"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button10"
@@ -187,7 +196,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button8" />
+            app:layout_constraintTop_toBottomOf="@+id/button8"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button11"
@@ -204,7 +214,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button9" />
+            app:layout_constraintTop_toBottomOf="@+id/button9"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button12"
@@ -221,7 +232,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button11" />
+            app:layout_constraintTop_toBottomOf="@+id/button11"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button13"
@@ -238,7 +250,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button12" />
+            app:layout_constraintTop_toBottomOf="@+id/button12"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button14"
@@ -258,7 +271,8 @@
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button13"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button15"
@@ -275,7 +289,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button10" />
+            app:layout_constraintTop_toBottomOf="@+id/button10"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button16"
@@ -292,7 +307,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button15" />
+            app:layout_constraintTop_toBottomOf="@+id/button15"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button17"
@@ -312,7 +328,8 @@
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button16"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
