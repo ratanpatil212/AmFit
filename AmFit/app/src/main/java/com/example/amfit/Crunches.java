@@ -1,17 +1,34 @@
 package com.example.amfit;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Crunches extends AppCompatActivity {
 
+    Button youtube;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crunches);
-        getSupportActionBar().hide();
+        youtube=findViewById(R.id.youtube);
+
+        youtube.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://youtu.be/_M2Etme-tfE");
+            }
+        });
+        
+    }
+    private void gotoUrl(String s){
+        Uri uri= Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW,uri));
     }
     @Override
     public void onBackPressed() {

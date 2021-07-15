@@ -7,7 +7,7 @@
     android:layout_height="729dp"
     tools:layout_editor_absoluteX="1dp"
     tools:layout_editor_absoluteY="1dp"
-    android:background="@drawable/image"
+    android:background="@drawable/gradient_background"
     android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -30,18 +30,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button4" />
+            app:layout_constraintTop_toBottomOf="@+id/mental_health"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="409dp"
             android:layout_height="94dp"
-            android:background="@drawable/image"
+            android:background="@drawable/dash"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center"
             android:includeFontPadding="false"
             android:text="Exercises"
-            android:textColor="@color/purple_500"
+            android:textColor="@color/white"
             android:textColorHighlight="@color/purple_200"
             android:textColorLink="@color/purple_200"
             android:textSize="48sp"
@@ -51,10 +52,11 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/amfit_specials"
             android:layout_width="160dp"
             android:layout_height="110dp"
             android:layout_marginTop="116dp"
@@ -68,10 +70,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/muscle_buildup"
             android:layout_width="160dp"
             android:layout_height="110dp"
             android:layout_marginTop="116dp"
@@ -85,10 +88,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/diet"
             android:layout_width="160dp"
             android:layout_height="110dp"
             android:layout_marginTop="16dp"
@@ -102,10 +106,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toBottomOf="@+id/amfit_specials"
+            tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/mental_health"
             android:layout_width="160dp"
             android:layout_height="110dp"
             android:layout_marginTop="16dp"
@@ -119,10 +124,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button2" />
+            app:layout_constraintTop_toBottomOf="@+id/muscle_buildup"
+            tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/explore"
             android:layout_width="160dp"
             android:layout_height="110dp"
             android:layout_marginTop="16dp"
@@ -136,7 +142,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button3" />
+            app:layout_constraintTop_toBottomOf="@+id/diet"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button8"
@@ -153,7 +160,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button6" />
+            app:layout_constraintTop_toBottomOf="@+id/explore"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button9"
@@ -170,7 +178,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button7" />
+            app:layout_constraintTop_toBottomOf="@+id/button7"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button10"
@@ -187,7 +196,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button8" />
+            app:layout_constraintTop_toBottomOf="@+id/button8"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button11"
@@ -204,7 +214,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button9" />
+            app:layout_constraintTop_toBottomOf="@+id/button9"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button12"
@@ -221,7 +232,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button11" />
+            app:layout_constraintTop_toBottomOf="@+id/button11"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button13"
@@ -238,7 +250,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button12" />
+            app:layout_constraintTop_toBottomOf="@+id/button12"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button14"
@@ -258,7 +271,8 @@
             app:layout_constraintHorizontal_bias="0.891"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button13"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button15"
@@ -275,7 +289,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button10" />
+            app:layout_constraintTop_toBottomOf="@+id/button10"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button16"
@@ -292,7 +307,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button15" />
+            app:layout_constraintTop_toBottomOf="@+id/button15"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button17"
@@ -312,7 +328,8 @@
             app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button16"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

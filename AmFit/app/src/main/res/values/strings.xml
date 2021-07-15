@@ -21,8 +21,6 @@
     <string name="new_user_sign_up">New User? Sign Up</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="get_started">Get Started</string>
-
-
     <string name="description">Like most cardio exercises, jumping jacks offer cardiovascular benefits. It balances out your heart rate, increases blood circulation all over the body, controls and maintains blood pressure, helps in doing away with bad cholesterol levels in the body, prevents the onset of stroke or heart attacks.
 </string>
     <string name="Benefits">Benefits - </string>
@@ -203,5 +201,35 @@
         2)Intermediate – 3 round of 60 seconds
         3)Advanced – 4 round of 90 seconds
 </string>
+    <string name="password_reset">Password Reset</string>
+    <string name="email">Email</string>
+    <string name="reset">Reset</string>
+    <string name="amfit">AmFit</string>
+    <string name="name">Name</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="phone">Phone</string>
+    <string name="coping_skills">COPING SKILLS</string>
+    <string name="some_healthy_coping_skills">Some Healthy Coping Skills</string>
+    <string name="emotion_focused_skills">Emotion Focused Skills</string>
+    <string name="problem_focused_skills">Problem Focused Skills</string>
+    <string name="just_click_here_and_start_living_life_to_the_fullest">Just Click Here and start living life to the fullest</string>
+    <string name="cobra_stretch">COBRA STRETCH</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="logout">Logout</string>
+    <string name="muscle_buildup">Muscle Buildup</string>
+    <string name="diet">Diet</string>
+    <string name="mental_health">Mental Health</string>
+    <string name="explore">Explore</string>
+    <string name="covid_19">COVID-19</string>
+    <string name="dealing_with_anxiety">Dealing with anxiety</string>
+    <string name="click_here_for_general_mental_health">Click here for general mental health</string>
+    <string name="some_tips_to_be_strong">Some Tips to be strong</string>
+    <string name="coping_with_stress_fear_and_worry">Coping with Stress, Fear, and Worry</string>
+    <string name="do_and_don_ts">Do and Don\'ts</string>
+    <string name="lunges">LUNGES</string>
+    <string name="todo">TODO</string>
+    <string name="tomatoes_spinach_eggplant_mustard_greens_okra_onions_bitter_melon_cauliflower_mushrooms_cabbage_potatoes_carrots_sweet_potatoes_turnips_yams">Tomatoes, spinach, eggplant, mustard greens, okra, onions, bitter melon, cauliflower, mushrooms, cabbage, Potatoes, carrots, sweet potatoes, turnips, yams</string>
+    <string name="meditation">MEDITATION</string>
+    <string name="exercises">Exercises</string>
 
 </resources>

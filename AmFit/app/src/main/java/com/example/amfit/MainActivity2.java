@@ -17,9 +17,17 @@ public class MainActivity2 extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
 
-        b2=(Button)findViewById(R.id.b2);
+        b2= findViewById(R.id.b2);
+
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity2.this,stressanx.class);
+                startActivity(i);
+
+            }
+        });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,7 +36,7 @@ public class MainActivity2 extends AppCompatActivity{
                 finish();
             }
         });
-        b1=(Button)findViewById(R.id.b1);
+        b1= findViewById(R.id.b1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -37,7 +45,7 @@ public class MainActivity2 extends AppCompatActivity{
                 finish();
             }
         });
-        b3=(Button)findViewById(R.id.b3);
+        b3= findViewById(R.id.b3);
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,7 +54,7 @@ public class MainActivity2 extends AppCompatActivity{
                 finish();
             }
         });
-        b4=(Button)findViewById(R.id.b4);
+        b4= findViewById(R.id.b4);
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,7 +63,7 @@ public class MainActivity2 extends AppCompatActivity{
                 finish();
             }
         });
-        b5=(Button)findViewById(R.id.b5);
+        b5= findViewById(R.id.b5);
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,7 +72,7 @@ public class MainActivity2 extends AppCompatActivity{
                 finish();
             }
         });
-        b6=(Button)findViewById(R.id.b6);
+        b6=findViewById(R.id.b6);
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,7 +81,7 @@ public class MainActivity2 extends AppCompatActivity{
                 finish();
             }
         });
-        b7=(Button)findViewById(R.id.b7);
+        b7=findViewById(R.id.b7);
         b7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

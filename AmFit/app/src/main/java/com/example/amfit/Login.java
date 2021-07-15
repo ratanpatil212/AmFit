@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import java.util.Objects;
 
 public class Login extends AppCompatActivity {
-    Button gotosignup,login;
+    Button gotosignup,login,forgot;
     EditText email,password;
     FirebaseAuth firebaseAuth;
 
@@ -50,6 +50,15 @@ public class Login extends AppCompatActivity {
         email = findViewById(R.id.Email);
         password = findViewById(R.id.Password);
         login = findViewById(R.id.Logintoapp);
+        forgot = findViewById(R.id.fgpass);
+
+        forgot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(Login.this,passforgot.class);
+                startActivity(i);
+            }
+        });
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,11 +93,12 @@ public class Login extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onStart() {  // if user is already regisered/logged in then the app will not show the login or register page it will take to main app
-        super.onStart();
-        if (FirebaseAuth.getInstance().getCurrentUser()!=null){
-            startActivity(new Intent(getApplicationContext(),contents.class));
-        }
-    }
+//    @Override
+//    protected void onStart() {  // if user is already regisered/logged in then the app will not show the login or register page it will take to main app
+//        super.onStart();
+//        if (FirebaseAuth.getInstance().getCurrentUser()!=null){
+//            startActivity(new Intent(getApplicationContext(),contents.class));
+//            finish();
+//        }
+//    }
 }
