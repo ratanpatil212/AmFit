@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lvegetables">
+    tools:context=".pfruits">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="330dp"
-        android:layout_height="627dp"
+        android:id="@+id/textView38"
+        android:layout_width="330sp"
+        android:layout_height="565sp"
         android:background="@color/white"
-        android:text="Tomatoes, spinach, eggplant, mustard greens, okra, onions, bitter melon, cauliflower, mushrooms, cabbage, Potatoes, carrots, sweet potatoes, turnips, yams"
-        android:textColor="#36973A"
-        android:textSize="34dp"
+        android:text="Berries : Berries hold a lot of goodness in their tiny packages like water, healthy carbs, vitamin C, fiber, and antioxidants. Some of the best berries to eat while pregnant are blueberries, raspberries, strawberries, and acai berries."
+        android:textColor="#DC8404"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

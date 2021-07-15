@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lvegetables">
+    tools:context=".dblegumes">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="330dp"
-        android:layout_height="627dp"
+        android:id="@+id/textView34"
+        android:layout_width="354dp"
+        android:layout_height="370dp"
         android:background="@color/white"
-        android:text="Tomatoes, spinach, eggplant, mustard greens, okra, onions, bitter melon, cauliflower, mushrooms, cabbage, Potatoes, carrots, sweet potatoes, turnips, yams"
-        android:textColor="#36973A"
-        android:textSize="34dp"
+        android:text="Beans : Beans are cheap, nutritious, and super healthy. Beans are a type of legume rich in B vitamins, beneficial minerals (calcium, potassium, and magnesium), and fiber."
+        android:textColor="#75AF32"
+        android:textSize="33sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.206" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

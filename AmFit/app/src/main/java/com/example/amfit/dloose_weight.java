@@ -1,6 +1,5 @@
 package com.example.amfit;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -8,77 +7,62 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-class loose_weight extends AppCompatActivity {
-    private Button but1;
-    private Button but2;
-    private Button but3;
-    private Button but4;
-    private Button but5;
-    private Button but6;
+public class dloose_weight extends AppCompatActivity {
+    private Button lbut1;
+    private Button lbut2;
+    private Button lbut3;
+    private Button lbut4;
+    private Button lbut5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dloose_weight);
-        but1 = findViewById(R.id.db1);
-        but2 = findViewById(R.id.db2);
-        but3 = findViewById(R.id.db3);
-        but4 = findViewById(R.id.db4);
-        but5 = findViewById(R.id.db5);
-        but6 = findViewById(R.id.db6);
+        lbut1 = findViewById(R.id.lb1);
+        lbut2 = findViewById(R.id.lb2);
+        lbut3 = findViewById(R.id.lb3);
+        lbut4 = findViewById(R.id.lb4);
+        lbut5 = findViewById(R.id.lb5);
 
-        but1.setOnClickListener(new View.OnClickListener() {
+        lbut1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(loose_weight.this, lvegetables.class);
+                Intent intent=new Intent(dloose_weight.this, lvegetables.class);
+                startActivity(intent);
+            }
+        });
+        lbut2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(dloose_weight.this, lfruits.class);
                 startActivity(intent);
 
             }
         });
-        but2.setOnClickListener(new View.OnClickListener() {
+        lbut3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(loose_weight.this, lfruits.class);
+                Intent intent=new Intent(dloose_weight.this, llegumes.class);
                 startActivity(intent);
 
             }
         });
-        but3.setOnClickListener(new View.OnClickListener() {
+        lbut4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(loose_weight.this, llegumes.class);
+                Intent intent=new Intent(dloose_weight.this, ldairy.class);
                 startActivity(intent);
 
             }
         });
-        but4.setOnClickListener(new View.OnClickListener() {
+        lbut5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(loose_weight.this, lnuts.class);
+                Intent intent=new Intent(dloose_weight.this, lother.class);
                 startActivity(intent);
 
             }
         });
-        but5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(loose_weight.this, loose_weight.class);
-                startActivity(intent);
 
-            }
-        });
-        but6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(loose_weight.this, loose_weight.class);
-                startActivity(intent);
-
-            }
-        });
     }
 }
-
-
-
-
-

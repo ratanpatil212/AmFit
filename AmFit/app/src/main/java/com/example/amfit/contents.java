@@ -13,6 +13,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class contents extends AppCompatActivity {
     Button logout;
+    private Button diet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,12 +23,20 @@ public class contents extends AppCompatActivity {
 //        getSupportActionBar().hide();
         setContentView(R.layout.activity_contents);
         logout = findViewById(R.id.logoutBtn);
+        diet = findViewById(R.id.button3);
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(getApplicationContext(),Login.class));
                 finish();
+            }
+        });
+        diet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(contents.this, Diet.class);
+                startActivity(intent);
             }
         });
 

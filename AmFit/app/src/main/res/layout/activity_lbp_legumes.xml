@@ -4,20 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lvegetables">
+    tools:context=".lbp_legumes">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView26"
         android:layout_width="330dp"
-        android:layout_height="627dp"
+        android:layout_height="565dp"
         android:background="@color/white"
-        android:text="Tomatoes, spinach, eggplant, mustard greens, okra, onions, bitter melon, cauliflower, mushrooms, cabbage, Potatoes, carrots, sweet potatoes, turnips, yams"
-        android:textColor="#36973A"
+        android:text="Much evidence supports the health benefits of consuming a plant-based diet and increasing the intake of legumes but high intake of whole grains, legumes (beans), nuts, and seeds is linked to significantly lower blood pressure."
+        android:textColor="#CC7F0D"
         android:textSize="34dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
