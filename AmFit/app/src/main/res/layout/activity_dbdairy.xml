@@ -4,21 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lvegetables">
+    tools:context=".dbdairy">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="330dp"
-        android:layout_height="627dp"
+        android:id="@+id/textView35"
+        android:layout_width="363dp"
+        android:layout_height="572dp"
         android:background="@color/white"
-        android:text="Tomatoes, spinach, eggplant, mustard greens, okra, onions, bitter melon, cauliflower, mushrooms, cabbage, Potatoes, carrots, sweet potatoes, turnips, yams"
-        android:textColor="#36973A"
-        android:textSize="34dp"
-
+        android:text="Eggs : Eggs provide amazing health benefits. In fact, they’re one of the best foods for keeping you full and satisfied in between meals. Regular egg consumption may also reduce your heart disease risk in several ways."
+        android:textColor="#D88304"
+        android:textSize="33sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.597" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lnuts">
+    tools:context=".plegumes">
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="331dp"
-        android:layout_height="567dp"
-        android:alpha="0.7"
+        android:id="@+id/textView39"
+        android:layout_width="330sp"
+        android:layout_height="565sp"
         android:background="@color/white"
-        android:text="Cashews, almonds, peanuts, pistachios, pumpkin seeds, sesame seeds, watermelon seeds and more"
-        android:textColor="#100E0E"
-        android:textSize="40dp"
+        android:text="Legumes : This group of food includes lentils, peas, beans, chickpeas, soybeans, and peanuts (aka all kinds of fabulous recipe ingredients)."
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,21 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lvegetables">
+    tools:context=".hbp_dairy">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="330dp"
-        android:layout_height="627dp"
+        android:id="@+id/textView18"
+        android:layout_width="351dp"
+        android:layout_height="634dp"
         android:background="@color/white"
-        android:text="Tomatoes, spinach, eggplant, mustard greens, okra, onions, bitter melon, cauliflower, mushrooms, cabbage, Potatoes, carrots, sweet potatoes, turnips, yams"
-        android:textColor="#36973A"
-        android:textSize="34dp"
-
+        android:text="One of the key recommendations in the diet is to include two to three servings of fat-free or low-fat milk or milk products each day. One serving is equal to one cup of milk, buttermilk or yogurt, or 43 grams of low-fat cheese."
+        android:textColor="#578720"
+        android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.587" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

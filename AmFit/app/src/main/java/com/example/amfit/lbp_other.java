@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class lnuts extends AppCompatActivity {
+public class lbp_other extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lnuts);
+        setContentView(R.layout.activity_lbp_other);
     }
 }

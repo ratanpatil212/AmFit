@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lvegetables">
+    tools:context=".hbp_legumes">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="330dp"
-        android:layout_height="627dp"
+        android:id="@+id/textView18"
+        android:layout_width="342dp"
+        android:layout_height="614dp"
         android:background="@color/white"
-        android:text="Tomatoes, spinach, eggplant, mustard greens, okra, onions, bitter melon, cauliflower, mushrooms, cabbage, Potatoes, carrots, sweet potatoes, turnips, yams"
-        android:textColor="#36973A"
-        android:textSize="34dp"
-
+        android:text="Beans and lentils(Dals) are rich in nutrients that help regulate blood pressure, such as fiber, magnesium, and potassium. Numerous studies have shown that eating beans and lentils may help lower high blood pressure levels."
+        android:textColor="#919521"
+        android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.581" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

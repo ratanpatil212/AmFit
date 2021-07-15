@@ -11,10 +11,47 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+
+        android:theme="@style/Theme.AmFit">
+        <activity android:name=".pother"></activity>
+        <activity android:name=".pdairy" />
+        <activity android:name=".plegumes" />
+        <activity android:name=".pfruits" />
+        <activity android:name=".pvegetables" />
+        <activity android:name=".pregnant_women" />
+        <activity android:name=".dbother" />
+        <activity android:name=".dbdairy" />
+        <activity android:name=".dblegumes" />
+        <activity android:name=".dbfruits" />
+        <activity android:name=".dbvegetables" />
+        <activity android:name=".diabetics" />
+        <activity android:name=".dloose_weight" />
+        <activity android:name=".lbp_other" />
+        <activity android:name=".lbp_dairy" />
+        <activity android:name=".lbp_legumes" />
+        <activity android:name=".lbp_fruits" />
+        <activity android:name=".lbp_vegetables" />
+        <activity android:name=".low_bp" />
+        <activity android:name=".hbp_other" />
+        <activity android:name=".hbp_dairy" />
+        <activity android:name=".hbp_legumes" />
+        <activity android:name=".hbp_fruits" />
+        <activity android:name=".hbp_vegetables" />
+        <activity android:name=".high_bp" />
+        <activity android:name=".dother" />
+        <activity android:name=".ddairy" />
+        <activity android:name=".dlegumes" />
+        <activity android:name=".dfruits" />
+        <activity android:name=".dvegetables" />
+        <activity android:name=".dgain_weight" />
+        <activity android:name=".lother" />
+        <activity android:name=".ldairy" />
+
         android:theme="@style/Theme.AmFit" >
         <activity android:name=".passforgot" />
         <activity android:name=".bottomnavigation" />
         <activity android:name=".MainActivity22" />
+
         <activity android:name=".wwa" />
         <activity android:name=".wwi" />
         <activity android:name=".wwb" />
@@ -26,6 +63,9 @@
         <activity android:name=".workoutmain2" />
         <activity android:name=".workoutmain" />
         <activity android:name=".Specials" />
+
+        <activity android:name=".llegumes" />
+
         <activity android:name=".Jumping_jacks" />
         <activity android:name=".Crunches" />
         <activity android:name=".High_knees" />
@@ -44,6 +84,7 @@
         <activity android:name=".Glute_bridge" />
         <activity android:name=".llegumes" />
         <activity android:name=".lnuts" />
+
         <activity android:name=".lfruits" />
         <activity android:name=".lvegetables" />
         <activity android:name=".Diet" />

@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dloose_weight">
+    tools:context=".pregnant_women">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="285dp"
-        android:layout_height="65dp"
-        android:text="Loose Weight"
+        android:id="@+id/textView36"
+        android:layout_width="342dp"
+        android:layout_height="70dp"
+        android:text="Pregnant Women"
+        android:textAlignment="center"
         android:textColor="#4CAF50"
-        android:textSize="45dp"
+        android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,7 +23,7 @@
         app:layout_constraintVertical_bias="0.084" />
 
     <Button
-        android:id="@+id/lb1"
+        android:id="@+id/pb1"
         android:layout_width="156dp"
         android:layout_height="67dp"
         android:text="Vegetables"
@@ -37,7 +38,7 @@
         app:layout_constraintVertical_bias="0.265" />
 
     <Button
-        android:id="@+id/lb2"
+        android:id="@+id/pb2"
         android:layout_width="156dp"
         android:layout_height="67dp"
         android:text="Fruits"
@@ -52,7 +53,7 @@
         app:layout_constraintVertical_bias="0.408" />
 
     <Button
-        android:id="@+id/lb3"
+        android:id="@+id/pb3"
         android:layout_width="156dp"
         android:layout_height="67dp"
         android:text="Legumes and Grains"
@@ -67,13 +68,13 @@
         app:layout_constraintVertical_bias="0.562" />
 
     <Button
-        android:id="@+id/lb4"
+        android:id="@+id/pb4"
         android:layout_width="156dp"
         android:layout_height="67dp"
         android:text="Dairy products"
-        android:textSize="17dp"
         android:textColor="@color/white"
-        app:backgroundTint="#D3C232"
+        android:textSize="17dp"
+        app:backgroundTint="#EBD838"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.151"
@@ -82,7 +83,7 @@
         app:layout_constraintVertical_bias="0.718" />
 
     <Button
-        android:id="@+id/lb5"
+        android:id="@+id/pb5"
         android:layout_width="156dp"
         android:layout_height="67dp"
         android:text="Other"
@@ -98,8 +99,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="172dp"
-        android:layout_height="70dp"
+        android:layout_width="172sp"
+        android:layout_height="70sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.874"
@@ -110,8 +111,8 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="174dp"
-        android:layout_height="66dp"
+        android:layout_width="174sp"
+        android:layout_height="66sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.881"
@@ -122,8 +123,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="183dp"
-        android:layout_height="76dp"
+        android:layout_width="183sp"
+        android:layout_height="76sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.899"
@@ -134,8 +135,8 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="184dp"
-        android:layout_height="69dp"
+        android:layout_width="184sp"
+        android:layout_height="69sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.876"
@@ -146,8 +147,8 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="114dp"
-        android:layout_height="69dp"
+        android:layout_width="114sp"
+        android:layout_height="69sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.801"

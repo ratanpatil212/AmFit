@@ -4,21 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lvegetables">
+    tools:context=".lbp_fruits">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView25"
         android:layout_width="330dp"
-        android:layout_height="627dp"
+        android:layout_height="565dp"
         android:background="@color/white"
-        android:text="Tomatoes, spinach, eggplant, mustard greens, okra, onions, bitter melon, cauliflower, mushrooms, cabbage, Potatoes, carrots, sweet potatoes, turnips, yams"
-        android:textColor="#36973A"
+        android:text="Drink Plenty of Fluids : When you’re dehydrated, your blood volume is reduced, which causes your blood pressure to decrease. Most doctors recommend drinking at least two liters (roughly eight glasses) of water every day."
+        android:textColor="#348338"
         android:textSize="34dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
