@@ -16,70 +16,110 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="410dp"
-            android:layout_height="85dp"
-            android:alpha="1"
-            android:background="@color/teal_700"
-            android:gravity="center"
-            android:text="@string/covid_19"
-            android:textColor="@color/black"
-            android:textSize="35sp" />
 
+            android:text="COVID-19"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:gravity="center"
+            android:textColor="#4CAF50"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
         <Button
             android:id="@+id/b6"
-            android:layout_width="410dp"
-            android:layout_height="122dp"
-            android:alpha="1"
-            android:background="@color/material_on_surface_stroke"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="@string/click_here_for_general_mental_health"
-            android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:layout_margin="10dp"
+            android:text="Click here for general mental health"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="@drawable/rounded_corners"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            app:backgroundTint="#4CAF50"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.267" />
+
 
         <Button
             android:id="@+id/b7"
-            android:layout_width="410dp"
-            android:layout_height="107dp"
-            android:alpha="1"
-            android:background="@color/material_on_surface_stroke"
-            android:gravity="center"
-            android:text="@string/some_tips_to_be_strong"
-            android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:layout_margin="10dp"
+            android:text="Some Tips to be strong"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="@drawable/rounded_corners"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            app:backgroundTint="#4CAF50"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.267" />
+
 
         <Button
             android:id="@+id/b8"
-            android:layout_width="410dp"
+            android:layout_margin="10dp"
+            android:text="Dealing with anxiety"
+            android:layout_width="match_parent"
             android:layout_height="105dp"
-            android:alpha="1"
-            android:background="@color/material_on_surface_stroke"
-            android:gravity="center"
-            android:text="@string/dealing_with_anxiety"
-            android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:background="@drawable/rounded_corners"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            app:backgroundTint="#4CAF50"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.267" />
+
 
         <Button
             android:id="@+id/b9"
-            android:layout_width="410dp"
-            android:layout_height="123dp"
-            android:alpha="1"
-            android:background="@color/material_on_surface_stroke"
-            android:gravity="center"
-            android:text="@string/coping_with_stress_fear_and_worry"
-            android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:layout_margin="10dp"
+            android:text="Coping with Stress, Fear, and Worry"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="@drawable/rounded_corners"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            app:backgroundTint="#4CAF50"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.267" />
+
 
         <Button
             android:id="@+id/b10"
-            android:layout_width="410dp"
-            android:layout_height="100dp"
-            android:alpha="1"
-            android:background="@color/material_on_surface_stroke"
-            android:gravity="center"
-            android:text="@string/do_and_don_ts"
-            android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:layout_margin="10dp"
+            android:text="Do and Don'ts"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="@drawable/rounded_corners"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            app:backgroundTint="#4CAF50"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.267" />
+
+
     </LinearLayout>
 
 </ScrollView>
