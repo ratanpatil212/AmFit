@@ -16,32 +16,37 @@
 
         <TextView
             android:id="@+id/tv1"
-            android:layout_width="410dp"
-            android:layout_height="63dp"
-            android:alpha="1"
-            android:background="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
             android:gravity="center"
             android:text="TIPS"
-            android:textColor="@color/black"
-            android:textSize="34dp" />
+            android:textColor="#4CAF50"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
 
         <TextView
             android:id="@+id/tv2"
+            android:text="1. Spend time with friends, loved ones and people you trust"
             android:layout_width="410dp"
             android:layout_height="91dp"
             android:alpha="1"
             android:gravity="center"
-            android:text="1. Spend time with friends, loved ones and people you trust"
             android:textColor="@color/black"
             android:textSize="27dp" />
 
         <TextView
             android:id="@+id/tv4"
+            android:text="2. Talk about or express your feelings regularly"
             android:layout_width="410dp"
             android:layout_height="91dp"
             android:alpha="1"
             android:gravity="center"
-            android:text="2. Talk about or express your feelings regularly"
             android:textColor="@color/black"
             android:textSize="27dp" />
 

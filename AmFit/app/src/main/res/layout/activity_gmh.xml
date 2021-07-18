@@ -27,36 +27,48 @@
 
         <TextView
             android:id="@+id/tv2"
-            android:layout_width="410dp"
-            android:layout_height="338dp"
-            android:alpha="1"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
             android:gravity="center"
             android:text="      Your mental health and wellbeing are just as important as your physical health.
 Positive mental health and wellbeing enables you to function well, have meaningful social connections, positive self-esteem and be better able to cope with life's ups and downs.
 "
-            android:textColor="@color/black"
-            android:textSize="27dp" />
+            android:textColor="#4CAF50"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
 
         <TextView
             android:id="@+id/tv3"
-            android:layout_width="410dp"
-            android:layout_height="143dp"
-            android:alpha="1"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
             android:gravity="center"
             android:text="Keeping our mind healthy is an important part of our overall health and wellbeing."
-            android:textColor="@color/black"
-            android:textSize="27dp" />
+            android:textColor="#4CAF50"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
 
         <Button
             android:id="@+id/b1"
             android:layout_width="410dp"
-            android:layout_height="wrap_content"
+            android:layout_height="126dp"
             android:alpha="1"
             android:background="@color/material_on_surface_stroke"
             android:gravity="center"
             android:text="Click Here for the tips to maintain Mental Health and Wellbeing"
             android:textColor="@color/black"
-            android:textSize="27dp"
+            android:textSize="28dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
