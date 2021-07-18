@@ -16,6 +16,7 @@
 
         <TextView
             android:id="@+id/textView3"
+
             android:text="COPING SKILLS"
             android:layout_width="match_parent"
             android:layout_height="103dp"
@@ -81,6 +82,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.267" />
 
+
         <Button
             android:id="@+id/b9"
             android:layout_margin="10dp"
@@ -89,9 +91,9 @@
             android:alpha="1"
             android:background="@color/material_on_surface_stroke"
             android:gravity="center"
-            android:text="Just Click Here and start living life to the fullest"
+            android:text="@string/just_click_here_and_start_living_life_to_the_fullest"
             android:textColor="@color/black"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
     </LinearLayout>
 
 </ScrollView>

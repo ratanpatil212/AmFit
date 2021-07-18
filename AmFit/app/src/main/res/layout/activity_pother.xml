@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pother">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="330sp"
+        android:layout_height="565sp"
+        android:background="@color/white"
+        android:text="Water : General guidelines recommend that pregnant women drink about 80 ounces (2.3 liters) of water daily. Keep in mind that you also get water from other foods and beverages, such as fruit, vegetables, coffee, and tea. Also, pregnant women should have salmon. "
+        android:textColor="#6BA528"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,8 +11,12 @@
     <color name="colorPrimaryDark">#e1e6ec</color>
     <color name="colorAccent">#31456a</color>
 
+
     <color name="background">#e1e6ec</color>
     <color name="highlight">#FFFFFFFF</color>
     <color name="shadow_color">#D9DBDE</color>
+    <color name="red">#DA1223</color>
+    <color name="colorstatepress">#EAB822</color>
     <color name="dark">#31456a</color>
+    <color name="dash_color">#4CAF50</color>
 </resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pvegetables">
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="330sp"
+        android:layout_height="565sp"
+        android:background="@color/white"
+        android:text="Broccoli and dark, green vegetables, such as kale and spinach, pack in so many of the nutrients you’ll need. Sweet potatoes has Vitamin A which is essential for baby’s development."
+        android:textColor="#6AA12A"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

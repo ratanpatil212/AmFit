@@ -101,6 +101,7 @@
 
         <Button
             android:id="@+id/b4"
+
             android:layout_margin="10dp"
             android:text="MEDITATION"
             android:layout_width="match_parent"
@@ -109,6 +110,7 @@
             android:textColor="@color/white"
             android:textSize="37dp"
             app:backgroundTint="#4CAF50"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.095"

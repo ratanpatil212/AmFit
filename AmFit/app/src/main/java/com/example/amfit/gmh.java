@@ -18,7 +18,7 @@ public class gmh extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gmh);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         b1=(Button)findViewById(R.id.b1);
         b1.setOnClickListener(new View.OnClickListener() {
