@@ -231,5 +231,9 @@
     <string name="tomatoes_spinach_eggplant_mustard_greens_okra_onions_bitter_melon_cauliflower_mushrooms_cabbage_potatoes_carrots_sweet_potatoes_turnips_yams">Tomatoes, spinach, eggplant, mustard greens, okra, onions, bitter melon, cauliflower, mushrooms, cabbage, Potatoes, carrots, sweet potatoes, turnips, yams</string>
     <string name="meditation">MEDITATION</string>
     <string name="exercises">Exercises</string>
+    <string name="choose_the_level">Choose the level</string>
+    <string name="workout_for_beginner">Workout for beginner</string>
+    <string name="workout_for_intermediate">Workout for intermediate</string>
+    <string name="workout_for_advance">Workout for advance</string>
 
 </resources>

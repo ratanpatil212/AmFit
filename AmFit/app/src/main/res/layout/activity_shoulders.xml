@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".shoulders">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="jumping jacks for  30sec
+" />
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="arm raises for 16sec" />
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rhomboid pulls for 14 times
+" />
+
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="side  arm raise  for 16sec
+" />
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="knee push-ups for 14 times" />
+
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="side-lying floor stretch left for 30sec
+" />
+
+            <Button
+                android:id="@+id/button81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="side-lying floor stretch right for 30sec" />
+
+            <Button
+                android:id="@+id/button82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="arm scissors for 30 sec" />
+
+            <Button
+                android:id="@+id/button83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rhomboid pulls for 12 times
+" />
+
+            <Button
+                android:id="@+id/button84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="side arsm raise for 14 sec" />
+
+            <Button
+                android:id="@+id/button85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="knee push-ups for 12 times
+" />
+
+            <Button
+                android:id="@+id/button86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cat cow pose for 30sec
+" />
+
+            <Button
+                android:id="@+id/button87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="prone triceps push ups for 14 times
+" />
+
+            <Button
+                android:id="@+id/button88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="reclined rhomboid squeezes for 12times" />
+
+            <Button
+                android:id="@+id/button89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="prone triceps push ups for 14 times
+" />
+
+            <Button
+                android:id="@+id/button90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="reclined rhomboid squeezes for 12 times" />
+
+            <Button
+                android:id="@+id/button91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="child’s pose for 30sec" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

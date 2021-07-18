@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".thigh">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="High stepping for 30sec" />
+
+            <Button
+                android:id="@+id/button111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumping jacks  for 30sec
+" />
+
+            <Button
+                android:id="@+id/button112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Squats for 12 times
+" />
+
+            <Button
+                android:id="@+id/button113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donkey kicks left for 12 times
+" />
+
+            <Button
+                android:id="@+id/button114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donkey kicks right for 12 times
+" />
+
+            <Button
+                android:id="@+id/button115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Backward lunge for 14 times
+" />
+
+            <Button
+                android:id="@+id/button116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Side lying leg lift  left for 10 times
+" />
+
+            <Button
+                android:id="@+id/button117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Side lying leg lift  right for 10 times
+" />
+
+            <Button
+                android:id="@+id/button118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modified burpees for 6 times" />
+
+            <Button
+                android:id="@+id/button119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Squats for 10 unit" />
+
+            <Button
+                android:id="@+id/button120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donkey kicks left for 10 times" />
+
+            <Button
+                android:id="@+id/button121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donkey kicks right for 10 times" />
+
+            <Button
+                android:id="@+id/button122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Backward lunge for 12 times
+" />
+
+            <Button
+                android:id="@+id/button123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Side lying leg lift  left for 8 times
+" />
+
+            <Button
+                android:id="@+id/button124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Side lying leg lift right for 8 times
+" />
+
+            <Button
+                android:id="@+id/button125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Left quad stretch with wall for 30sec
+" />
+
+            <Button
+                android:id="@+id/button126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="right quad stretch with wall for 30sec
+" />
+
+            <Button
+                android:id="@+id/button127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="knee to chest stretch left for 30sec
+" />
+
+            <Button
+                android:id="@+id/button128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="knee to chest stretch right for 30sec
+" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

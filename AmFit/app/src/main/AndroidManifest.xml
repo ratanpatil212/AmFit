@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.amfit" >
+    package="com.example.amfit">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,9 +11,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
         android:theme="@style/Theme.AmFit">
-        <activity android:name=".pother"></activity>
+        <activity android:name=".thigh"></activity>
+        <activity android:name=".butt" />
+        <activity android:name=".shoulders" />
+        <activity android:name=".legs" />
+        <activity android:name=".abs" />
+        <activity android:name=".arm" />
+        <activity android:name=".chest" />
+        <activity android:name=".pother" />
         <activity android:name=".pdairy" />
         <activity android:name=".plegumes" />
         <activity android:name=".pfruits" />
@@ -46,12 +52,9 @@
         <activity android:name=".dgain_weight" />
         <activity android:name=".lother" />
         <activity android:name=".ldairy" />
-
-        android:theme="@style/Theme.AmFit" >
         <activity android:name=".passforgot" />
         <activity android:name=".bottomnavigation" />
         <activity android:name=".MainActivity22" />
-
         <activity android:name=".wwa" />
         <activity android:name=".wwi" />
         <activity android:name=".wwb" />
@@ -63,9 +66,7 @@
         <activity android:name=".workoutmain2" />
         <activity android:name=".workoutmain" />
         <activity android:name=".Specials" />
-
         <activity android:name=".llegumes" />
-
         <activity android:name=".Jumping_jacks" />
         <activity android:name=".Crunches" />
         <activity android:name=".High_knees" />
@@ -84,7 +85,6 @@
         <activity android:name=".Glute_bridge" />
         <activity android:name=".llegumes" />
         <activity android:name=".lnuts" />
-
         <activity android:name=".lfruits" />
         <activity android:name=".lvegetables" />
         <activity android:name=".Diet" />
@@ -99,7 +99,7 @@
         <activity android:name=".MainActivity2" />
         <activity android:name=".phonelogin" />
         <activity android:name=".contents" />
-        <activity android:name=".AmFit" >
+        <activity android:name=".AmFit">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
