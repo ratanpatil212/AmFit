@@ -19,8 +19,12 @@
             <Button
                 android:id="@+id/button33"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Arm raise [for 30 sec] " />
+
+                android:text="Arm raise [for 30 sec] "
+                android:layout_height="76dp"
+                android:background="@drawable/rounded_corners"
+                app:backgroundTint="#4A5ECA"
+                android:layout_margin="1dp"/>
 
             <Button
                 android:id="@+id/button34"
