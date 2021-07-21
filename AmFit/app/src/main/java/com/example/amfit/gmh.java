@@ -32,4 +32,12 @@ public class gmh extends AppCompatActivity{
 
 
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent categoryIntent = new Intent(gmh.this,MainActivity2.class);
+        startActivity(categoryIntent);
+        finish();
+
+    }
 }

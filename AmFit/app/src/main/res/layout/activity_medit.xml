@@ -49,9 +49,9 @@
 
         <Button
             android:id="@+id/b7"
-            android:layout_margin="10dp"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:background="@drawable/rounded_corners"
             android:text="Spiritual Meditation"
             android:textColor="@color/white"
